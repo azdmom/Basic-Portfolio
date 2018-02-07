@@ -1,0 +1,283 @@
+body {
+    line-height: 1;
+    overflow: auto;
+    background-image: url("../images/upfeathers.png");
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    padding: 0 100px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: solid 2px #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 40px;
+    vertical-align: baseline;
+    display: inline-block;
+    z-index: inherit 1;
+}
+
+.logo {
+    border: 1px solid#4aaaa5;
+    width: 295px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    font-size: 49px;
+    float: left;
+    padding: 20px;
+    z-index: 2;
+}
+
+:link {
+    color: #969696;
+}
+
+nav {
+    font-size: 17px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    margin-right: 260px;
+    z-index: 3;
+    float: right;
+}
+
+ul {
+    list-style: none;
+    font-style: normal;
+}
+/* make your list display horizontally */
+li {
+    display: inline;
+    text-align: center;
+}
+
+/*  background-color: #ffffff;
+    border-color: #dddddd; */
+
+.content {
+    /* the top of this is behind the nav, so we're pushing it down nav's height plus 20px for seperation */
+    margin-top: 120px;
+    z-index: 4;
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* make all text light blue */
+
+.light-blue {
+    color: #4aaaa5;
+}
+
+section {
+    height: 450px;
+    width: 750px;
+    z-index: 5;
+    font-size: 18px;
+    float: left;
+    margin-left: 100px;
+    margin-top: -5px;
+    color: rgb(88, 101, 105);
+    overflow: auto;
+    background-color: #ffffff;
+    
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+    
+}
+
+.Drita {
+    float: left;
+    margin-right: 1 em;
+
+}
+p{
+    clear: both;
+
+}
+
+h1{
+    font-size: 26px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #d3d3d3;
+    margin: 10px 20px;
+} 
+h2{
+    font-size: 26px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #d3d3d3;
+    margin: 10px 20px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.imgcontainer{
+    width: 75%;
+    margin: 0 auto;
+}
+
+aside {
+    z-index: 6;
+    position: relative;
+    width: 270px;
+    height: 150px;
+    float: right;
+    margin-left: -0px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-right: 170px;
+}
+
+footer {
+    z-index: 7;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #dddddd;
+    background: #666666;
+    border-top: 10px;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    clear: both;
+}
+/* this is the styling for the portfolio image grid */
+.portfolio{
+    position: relative;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 100%;
+    max-width: 600px;
+    clear: both;
+    
+}
+
+h3{
+    font-size: 26px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #d3d3d3;
+    margin: 10px 20px;
+}
+.images{
+    position: relative;
+    overflow: auto;
+    margin: 30px;
+    border-radius: 5px;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    padding: 20px;
+    float: left;
+    height: 440px;
+    width: 700px;
+    clear: both;
+}
+
+.img1{
+    position: relative;
+    margin: 6px;
+    display: block;
+    margin: auto;
+    float: left;
+    overflow: auto;
+    padding: 15px;
+}
+.img{
+    position: relative;
+    margin: 6px;
+    display: block;
+    margin: auto;
+    float: left;
+    overflow: auto;
+    padding: 10px;
+}
+
+.img h4 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 15px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    overflow: auto;
+      
+}
+
+.img1 h4 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 15px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    overflow: auto;  
+}
+
+/* This is the styling for our contact form */
+.contentt{
+    margin-top: 100px;
+    z-index: 4;
+    margin-left: 50px;
+}
+.container{
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    padding: 20px;
+    float: left;
+    margin-left: 45px;
+} 
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+
+
